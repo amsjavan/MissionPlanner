@@ -4,6 +4,22 @@ using Android.Bluetooth;
 using Android.Util;
 using MissionPlanner.ArduPilot;
 
+namespace OSGeo
+{
+    public class GdalConfiguration
+    {
+        public static void ConfigureGdal()
+        {
+        
+        }
+
+        public static void ConfigureOgr()
+        {
+        
+        }
+    }
+}
+
 namespace Xamarin.Droid
 {
     public class BTDevice : IBlueToothDevice
